@@ -50,99 +50,99 @@ arm.flex();                             // 3)
 //  action 3:   the arm rotates conter-clockwise
 arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
-
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+ // Noun: fish
+//  action 1: The fish eats
+fish.eat();
+//  action 2: The fish swims 
+fish.swim();
+//  action 3: The fish breeds
+fish.breed();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
+//  action 2: the dog plays
+dog.play();
+//  action 3: the dog sit
+dog.sit();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: plane
+//  action 1: the ship departs
+ship.depart();
+//  action 2: the ship sails
+ship.sail();
+//  action 3: the ship docks
+ship.dock(); 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: car wash
+//  action 1: the carwash shampoos and waxes
+carWash.shampooAndWax();
+//  action 2: the carwash rinses
+carWash.rinse();
+//  action 3: the car wash blow dries
+carWash.blowDry();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: printer
+//  action 1: the printer prints
+printer.print();
+//  action 2: the printer scans
+printer.scan();
+//  action 3: the printer cleans itself
+printer.clean();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: engine
+//  action 1: the engine starts
+engine.start();
+//  action 2: the engine accelerates
+engine.accelerate();
+//  action 3: the engine stops
+engine.stop();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: tape recorder
+//  action 1: the tape recorder records
+tapeRecorder.record();
+//  action 2: the tape recorder rewinds
+tapeRecorder.rewind();
+//  action 3: the tape recorder plays
+tapeRecorder.play();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: coffee machine
+//  action 1: the coffee machine grinds beans
+coffeeMachine.grindBeans();
+//  action 2: the coffee machine heats water 
+coffeeMachine.heatWater();
+//  action 3: the coffee machine brews coffee
+coffeeMachine.brewCoffee();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: ticket barrier
+//  action 1: the ticket barrier scans the ticket
+ticketBarrier.scanTicket();
+//  action 2: the ticket barrier authenticates the ticket 
+ticketBarrier.authenticateTicket();
+//  action 3: the ticket barrier opens the gate
+ticketBarrier.openGate();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: elevator
+//  action 1: the elevator opens the door
+elevator.openDoor();
+//  action 2: the elevator closes the door
+elevator.closeDoor();
+//  action 3: the elevator ascends
+elevator.ascend();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +150,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
